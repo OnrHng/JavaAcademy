@@ -1,6 +1,6 @@
 package academy.everyonecodes.java.week1.set1.exercise2;
 
-public class SetNumbers {
+public class SumNumbers {
 
     public static int sumInt(int num1, int num2) {
         return num1 + num2;
