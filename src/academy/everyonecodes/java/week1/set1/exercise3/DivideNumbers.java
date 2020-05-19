@@ -9,5 +9,6 @@ public class DivideNumbers {
     public static void main(String[] args) {
         System.out.println("The quotient is : " + divideNums(40.5 , 10.05));
         System.out.println("The quotient is by 0 : " + divideNums(3.0 , 0));
+
     }
 }
