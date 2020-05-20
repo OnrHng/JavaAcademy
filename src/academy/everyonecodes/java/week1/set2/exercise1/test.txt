@@ -1,0 +1,4 @@
+WoofWoof :
+    0 -> I will jump 0 times and bark 1 times!
+    1 -> I will jump 6 times and bark 2 times!
+    2 or other number -> you have to give just 0 or 1
