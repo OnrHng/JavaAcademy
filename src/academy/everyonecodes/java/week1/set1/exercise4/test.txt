@@ -1,0 +1,2 @@
+WateringMachine Cost :
+    The Final Cost is : 32.0 Euro
