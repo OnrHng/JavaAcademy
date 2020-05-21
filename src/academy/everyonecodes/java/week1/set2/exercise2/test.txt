@@ -1,0 +1,30 @@
+CombinationCollection :
+    case 1:
+        arr1 = ["one", "three", "five"]
+        arr2 = ["two", "four","six"]
+        output : one
+                 two
+                 three
+                 four
+                 five
+                 six
+    case 2 :
+        arr1 = ["one", "three", "five", "seven"]
+        arr2 = ["two", "four","six"]
+        output : one
+                 two
+                 three
+                 four
+                 five
+                 six
+                 seven
+    case 2 :
+        arr1 = ["one", "three", "five"]
+        arr2 = ["two", "four","six", "seven"]
+        output : one
+                 two
+                 three
+                 four
+                 five
+                 six
+                 seven
