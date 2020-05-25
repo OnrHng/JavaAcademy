@@ -1,0 +1,5 @@
+Exercise 2 Car Application:
+    "blue", 2010 --> Your car is blue color and on 2010 year is builted
+    "", "" --> Your car is color and on year is builted
+    "white", "" --> Your car is white color and on year is builted
+    "", 2010 --> Your car is color and on 2010 year is builted
