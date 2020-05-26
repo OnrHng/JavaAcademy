@@ -11,7 +11,7 @@ public class Application {
 
         // Just Testing for ingredients to print on the console
         System.out.println("Pizza Ingredients are: ");
-        for (Object ingredient : pizza.getIngredients()) {
+        for (String ingredient : pizza.getIngredients()) {
             System.out.println(ingredient);
         }
     }
