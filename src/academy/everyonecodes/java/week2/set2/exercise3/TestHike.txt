@@ -1,0 +1,12 @@
+Application of Hike:
+    "21.06.2020",
+    "onur", "0987654321",
+    "sally", "1234567890"  --> Date of Hike is: 21.06.2020
+                               -- List of hikers that signed up for the hike --
+                               Hiker's name: onur Phone: 0987654321
+                               Hiker's name: sally Phone: 1234567890
+
+    "",
+    "", --> You didn't write your name
+            Date of Hike is:
+            -- List of hikers that signed up for the hike --

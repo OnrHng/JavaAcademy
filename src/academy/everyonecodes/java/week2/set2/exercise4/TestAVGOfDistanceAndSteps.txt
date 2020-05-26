@@ -1,0 +1,12 @@
+Application of Distance and Steps Average :
+    0, 0, 0 --> Total Distance as KM : 0.0
+                Average of Distance as KM : 0.0
+                Average of Total Steps : 0.0
+
+    12250, 13300, 12890 --> Total Distance as KM : 29.29128
+                            Average of Distance as KM : 9.763506
+                            Average of Total Steps : 12813.0
+
+    -12331, -3123, -3144 --> Total Distance as KM : -14.171676
+                             Average of Distance as KM : -4.723638
+                             Average of Total Steps : -6199.0
