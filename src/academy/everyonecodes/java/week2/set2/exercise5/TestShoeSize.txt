@@ -1,0 +1,26 @@
+Application of Shoe Shop:
+
+    availableShoes:   (39, "pink")
+                    (40, "red")
+                    (38, "blue")
+                    (42, "black") -->    for matilda :
+                                        I will take the blue one!
+                                         for Hansel :
+                                        I will take the black one!
+
+
+                    (39, "pink")
+                    (40, "red")
+                    (37, "blue")
+                    (42, "black") -->    for matilda :
+                                        Nope, this one doesn’t fit, sorry!
+                                         for Hansel :
+                                        I will take the black one!
+
+                    (39, "pink")
+                    (40, "red")
+                    (38, "blue")
+                    (41, "black") -->    for matilda :
+                                        I will take the blue one!
+                                         for Hansel :
+                                        Nope, this one doesn’t fit, sorry!
