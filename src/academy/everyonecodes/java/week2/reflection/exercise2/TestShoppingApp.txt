@@ -1,0 +1,14 @@
+ShoppingApplication :
+    "banana" , 2.90, 2
+    "milch", 1.10, 3
+
+    "bread", 0.5, 3
+    "nutella", 3.90, 1 --> Derek has to pay 8.0 Euros.
+                           Hansel has to pay 5.4 Euros.
+
+
+    "banana" , 2.90, 2
+    "milch", 1.10, 3
+
+    ""                  --> Derek has to pay 8.0 Euros.
+                            Sorry dear Customer! You got nothing in our Shop. Therefore you don't have to pay...
