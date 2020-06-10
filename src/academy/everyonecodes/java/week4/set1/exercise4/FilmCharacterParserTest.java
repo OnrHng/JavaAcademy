@@ -11,14 +11,15 @@ class FilmCharacterParserTest {
         FilmCharacter expected1 = new FilmCharacter("Anakin", "Skywalker");
         FilmCharacter result = FilmCharacterParser.parse("Anakin;Skywalker");
 
-        assertEquals(expected1.getFirstName(), result.getFirstName()); // test for first name
-        assertEquals(expected1.getLastName(), result.getLastName()); // test for last name
+//        assertEquals(expected1.getFirstName(), result.getFirstName()); // test for first name
+//        assertEquals(expected1.getLastName(), result.getLastName()); // test for last name
+
+        assertEquals(expected1, result);
 
         FilmCharacter expected2 = new FilmCharacter("Frodo", "Baggins");
         FilmCharacter result2 = FilmCharacterParser.parse("Frodo;Baggins");
 
-        assertEquals(expected2.getFirstName(), result2.getFirstName()); // test for first name
-        assertEquals(expected2.getLastName(), result2.getLastName()); // test for last name
+        assertEquals(expected2, result2);
 
     }
 
@@ -27,8 +28,7 @@ class FilmCharacterParserTest {
         FilmCharacter expected = new FilmCharacter("", "");
 
         FilmCharacter result = FilmCharacterParser.parse(";");
-        assertEquals(expected.getFirstName(), result.getFirstName()); // test for first name
-        assertEquals(expected.getLastName(), result.getLastName()); // test for last name
+        assertEquals(expected, result); // to compare an object instead of object's attributes
 
     }
 }
