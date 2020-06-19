@@ -20,9 +20,9 @@ public class SongReader {
                 // split the line with ','
                 String[] parsedLine = line.split(",");
                 // skip first line
-               // if (parsedLine[0].equals("Rank")){
-               //     continue;
-               // }
+               if (parsedLine[0].equals("Rank")){
+                    continue;
+               }
                 //  create a Song and add it into the SongList
                 songList.add(new Song(Integer.parseInt(parsedLine[0]), parsedLine[1], parsedLine[2], parsedLine[3]));
             }
