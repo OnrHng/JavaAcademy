@@ -36,13 +36,4 @@ public class ChangeUnitsCalculator {
 
         return unitsChange;
     }
-
-    public static void main(String[] args) {
-
-        ChangeUnitsCalculator calculator = new ChangeUnitsCalculator();
-        List<MoneyUnit> changeUnits = calculator.calculate(111.86);
-        for (MoneyUnit unit : changeUnits) {
-            System.out.println(unit.getCurrency() + unit.getValue());
-        }
-    }
 }
