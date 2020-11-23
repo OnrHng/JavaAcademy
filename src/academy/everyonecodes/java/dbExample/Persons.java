@@ -12,8 +12,8 @@ public class Persons {
         Class.forName("com.mysql.cj.jdbc.Driver");
         // Setup the connection with the DB
         connection = DriverManager
-                .getConnection("jdbc:mysql://localhost/ECClassroom?" +
-                        "user=onr&password=3000&serverTimezone=UTC");
+                .getConnection("jdbc:mysql://localhost/<databaseName>?" +
+                        "user=<username>&password=<password>&serverTimezone=UTC");
     }
 
     public void showAllPersons() throws SQLException {
