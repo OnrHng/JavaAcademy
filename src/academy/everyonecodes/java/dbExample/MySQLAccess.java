@@ -23,8 +23,8 @@ public class MySQLAccess {
         Class.forName("com.mysql.cj.jdbc.Driver");
         // Setup the connection with the DB
         connection = DriverManager
-                .getConnection("jdbc:mysql://localhost/javaSqlExample?" +
-                        "user=onr&password=3000&serverTimezone=UTC");
+                .getConnection("jdbc:mysql://localhost/<databaseName>?" +
+                        "user=<username>&password=<password>&serverTimezone=UTC");
     }
 
     public void readUsers() throws Exception {
@@ -40,8 +40,8 @@ public class MySQLAccess {
         PreparedStatement preparedStatement = connection
                 .prepareStatement("insert into  users (uname, email) values(?, ?)",
                         Statement.RETURN_GENERATED_KEYS);
-        preparedStatement.setString(1, "Onur");
-        preparedStatement.setString(2, "onur@gmail.com");
+        preparedStatement.setString(1, "Sally");
+        preparedStatement.setString(2, "sally@gmail.com");
         int affectedRows = preparedStatement.executeUpdate();
         System.out.println(affectedRows + " rows inserted!");
         ResultSet resultSet = preparedStatement.getGeneratedKeys();
